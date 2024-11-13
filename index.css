@@ -28,9 +28,8 @@ body{
     text-align: center;
     padding-top: 20px;
     padding: 10px;
-    text-decoration: underline;
     color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
 }
 .city{
@@ -38,7 +37,8 @@ body{
     align-items: center;
     justify-content:space-between;
     width: 80%;
-    background-color:rgb(255, 255, 255);
+    background-color:rgba(255, 255, 255, 0.445);
+    backdrop-filter: blur(10px);
     border: none;
     border-radius: 20px;
     padding: 5px;
